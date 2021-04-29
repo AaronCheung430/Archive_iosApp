@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3150E5481E4B14290051E0EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3150E5471E4B14290051E0EA /* GoogleService-Info.plist */; };
+		3150E54A1E4B16E30051E0EA /* SA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150E5491E4B16E30051E0EA /* SA.swift */; };
+		3150E54C1E4B1A100051E0EA /* MA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150E54B1E4B1A100051E0EA /* MA.swift */; };
+		3150E5521E4B1D0C0051E0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3150E5511E4B1D0C0051E0EA /* Assets.xcassets */; };
+		3150E5561E4B1F910051E0EA /* CampusTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150E5551E4B1F910051E0EA /* CampusTV.swift */; };
+		317EB8AF1E4B35A4002828EF /* FloorMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EB8AE1E4B35A4002828EF /* FloorMap.swift */; };
+		317EB8B51E4B532F002828EF /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317EB8B41E4B532F002828EF /* Information.swift */; };
+		31AA03F11E4AD9E7009E5BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA03F01E4AD9E7009E5BF8 /* AppDelegate.swift */; };
+		31AA03F31E4AD9E7009E5BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA03F21E4AD9E7009E5BF8 /* ViewController.swift */; };
+		31AA03F91E4AD9E7009E5BF8 /* Wah_Yan_SA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31AA03F71E4AD9E7009E5BF8 /* Wah_Yan_SA.xcdatamodeld */; };
+		31AA03FE1E4AD9E7009E5BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AA03FC1E4AD9E7009E5BF8 /* LaunchScreen.storyboard */; };
+		31AA04091E4AD9E8009E5BF8 /* Wah_Yan_SATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA04081E4AD9E8009E5BF8 /* Wah_Yan_SATests.swift */; };
+		31AA04141E4AD9E8009E5BF8 /* Wah_Yan_SAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA04131E4AD9E8009E5BF8 /* Wah_Yan_SAUITests.swift */; };
+		8F80A41F159F7C84E2BABF00 /* libPods-Wah Yan SA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB6512888FA7D803A61FEE0 /* libPods-Wah Yan SA.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31AA04051E4AD9E8009E5BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AA03E51E4AD9E7009E5BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AA03EC1E4AD9E7009E5BF8;
+			remoteInfo = "Wah Yan SA";
+		};
+		31AA04101E4AD9E8009E5BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31AA03E51E4AD9E7009E5BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31AA03EC1E4AD9E7009E5BF8;
+			remoteInfo = "Wah Yan SA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27520E7F5388B82D4BC882EA /* Pods-Wah Yan SA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wah Yan SA.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wah Yan SA/Pods-Wah Yan SA.release.xcconfig"; sourceTree = "<group>"; };
+		311DA6791E4B0E0D0001A68B /* Wah Yan SA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Wah Yan SA.entitlements"; sourceTree = "<group>"; };
+		3150E5471E4B14290051E0EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3150E5491E4B16E30051E0EA /* SA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SA.swift; sourceTree = "<group>"; };
+		3150E54B1E4B1A100051E0EA /* MA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MA.swift; sourceTree = "<group>"; };
+		3150E5511E4B1D0C0051E0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3150E5551E4B1F910051E0EA /* CampusTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusTV.swift; sourceTree = "<group>"; };
+		317EB8AE1E4B35A4002828EF /* FloorMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorMap.swift; sourceTree = "<group>"; };
+		317EB8B41E4B532F002828EF /* Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		31AA03ED1E4AD9E7009E5BF8 /* Wah Yan SA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wah Yan SA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AA03F01E4AD9E7009E5BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31AA03F21E4AD9E7009E5BF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31AA03F81E4AD9E7009E5BF8 /* Wah_Yan_SA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wah_Yan_SA.xcdatamodel; sourceTree = "<group>"; };
+		31AA03FD1E4AD9E7009E5BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31AA03FF1E4AD9E7009E5BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AA04041E4AD9E8009E5BF8 /* Wah Yan SATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wah Yan SATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AA04081E4AD9E8009E5BF8 /* Wah_Yan_SATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wah_Yan_SATests.swift; sourceTree = "<group>"; };
+		31AA040A1E4AD9E8009E5BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31AA040F1E4AD9E8009E5BF8 /* Wah Yan SAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wah Yan SAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AA04131E4AD9E8009E5BF8 /* Wah_Yan_SAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wah_Yan_SAUITests.swift; sourceTree = "<group>"; };
+		31AA04151E4AD9E8009E5BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D99682204BEAAD00EFDFB0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7BB6512888FA7D803A61FEE0 /* libPods-Wah Yan SA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wah Yan SA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944C8435E078EF4A813624AE /* Pods-Wah Yan SA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wah Yan SA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wah Yan SA/Pods-Wah Yan SA.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31AA03EA1E4AD9E7009E5BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F80A41F159F7C84E2BABF00 /* libPods-Wah Yan SA.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AA04011E4AD9E8009E5BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AA040C1E4AD9E8009E5BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		317EB8B61E4B5337002828EF /* CTV Live */ = {
+			isa = PBXGroup;
+			children = (
+				31AA03F21E4AD9E7009E5BF8 /* ViewController.swift */,
+				317EB8AE1E4B35A4002828EF /* FloorMap.swift */,
+				317EB8B41E4B532F002828EF /* Information.swift */,
+			);
+			name = "CTV Live";
+			sourceTree = "<group>";
+		};
+		31AA03E41E4AD9E7009E5BF8 = {
+			isa = PBXGroup;
+			children = (
+				31AA03EF1E4AD9E7009E5BF8 /* Wah Yan SA */,
+				31AA04071E4AD9E8009E5BF8 /* Wah Yan SATests */,
+				31AA04121E4AD9E8009E5BF8 /* Wah Yan SAUITests */,
+				31AA03EE1E4AD9E7009E5BF8 /* Products */,
+				BA7FC17FA1C33DEFA6E7459D /* Pods */,
+				54CB3E3E0EF697871A8CE6B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31AA03EE1E4AD9E7009E5BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31AA03ED1E4AD9E7009E5BF8 /* Wah Yan SA.app */,
+				31AA04041E4AD9E8009E5BF8 /* Wah Yan SATests.xctest */,
+				31AA040F1E4AD9E8009E5BF8 /* Wah Yan SAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31AA03EF1E4AD9E7009E5BF8 /* Wah Yan SA */ = {
+			isa = PBXGroup;
+			children = (
+				311DA6791E4B0E0D0001A68B /* Wah Yan SA.entitlements */,
+				31AA03F01E4AD9E7009E5BF8 /* AppDelegate.swift */,
+				317EB8B61E4B5337002828EF /* CTV Live */,
+				3150E5551E4B1F910051E0EA /* CampusTV.swift */,
+				3150E5491E4B16E30051E0EA /* SA.swift */,
+				3150E54B1E4B1A100051E0EA /* MA.swift */,
+				31D99682204BEAAD00EFDFB0 /* Main.storyboard */,
+				3150E5511E4B1D0C0051E0EA /* Assets.xcassets */,
+				3150E5471E4B14290051E0EA /* GoogleService-Info.plist */,
+				31AA03FC1E4AD9E7009E5BF8 /* LaunchScreen.storyboard */,
+				31AA03FF1E4AD9E7009E5BF8 /* Info.plist */,
+				31AA03F71E4AD9E7009E5BF8 /* Wah_Yan_SA.xcdatamodeld */,
+			);
+			path = "Wah Yan SA";
+			sourceTree = "<group>";
+		};
+		31AA04071E4AD9E8009E5BF8 /* Wah Yan SATests */ = {
+			isa = PBXGroup;
+			children = (
+				31AA04081E4AD9E8009E5BF8 /* Wah_Yan_SATests.swift */,
+				31AA040A1E4AD9E8009E5BF8 /* Info.plist */,
+			);
+			path = "Wah Yan SATests";
+			sourceTree = "<group>";
+		};
+		31AA04121E4AD9E8009E5BF8 /* Wah Yan SAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31AA04131E4AD9E8009E5BF8 /* Wah_Yan_SAUITests.swift */,
+				31AA04151E4AD9E8009E5BF8 /* Info.plist */,
+			);
+			path = "Wah Yan SAUITests";
+			sourceTree = "<group>";
+		};
+		54CB3E3E0EF697871A8CE6B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BB6512888FA7D803A61FEE0 /* libPods-Wah Yan SA.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA7FC17FA1C33DEFA6E7459D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				944C8435E078EF4A813624AE /* Pods-Wah Yan SA.debug.xcconfig */,
+				27520E7F5388B82D4BC882EA /* Pods-Wah Yan SA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31AA03EC1E4AD9E7009E5BF8 /* Wah Yan SA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AA04181E4AD9E8009E5BF8 /* Build configuration list for PBXNativeTarget "Wah Yan SA" */;
+			buildPhases = (
+				0C08D2A2D1A86CB92F6F2C6B /* [CP] Check Pods Manifest.lock */,
+				31AA03E91E4AD9E7009E5BF8 /* Sources */,
+				31AA03EA1E4AD9E7009E5BF8 /* Frameworks */,
+				31AA03EB1E4AD9E7009E5BF8 /* Resources */,
+				12B37BE39A66D308102AFB9C /* [CP] Embed Pods Frameworks */,
+				61ABFD7C92C02A1437F5DC15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wah Yan SA";
+			productName = "Wah Yan SA";
+			productReference = 31AA03ED1E4AD9E7009E5BF8 /* Wah Yan SA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31AA04031E4AD9E8009E5BF8 /* Wah Yan SATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AA041B1E4AD9E8009E5BF8 /* Build configuration list for PBXNativeTarget "Wah Yan SATests" */;
+			buildPhases = (
+				31AA04001E4AD9E8009E5BF8 /* Sources */,
+				31AA04011E4AD9E8009E5BF8 /* Frameworks */,
+				31AA04021E4AD9E8009E5BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AA04061E4AD9E8009E5BF8 /* PBXTargetDependency */,
+			);
+			name = "Wah Yan SATests";
+			productName = "Wah Yan SATests";
+			productReference = 31AA04041E4AD9E8009E5BF8 /* Wah Yan SATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31AA040E1E4AD9E8009E5BF8 /* Wah Yan SAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AA041E1E4AD9E8009E5BF8 /* Build configuration list for PBXNativeTarget "Wah Yan SAUITests" */;
+			buildPhases = (
+				31AA040B1E4AD9E8009E5BF8 /* Sources */,
+				31AA040C1E4AD9E8009E5BF8 /* Frameworks */,
+				31AA040D1E4AD9E8009E5BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AA04111E4AD9E8009E5BF8 /* PBXTargetDependency */,
+			);
+			name = "Wah Yan SAUITests";
+			productName = "Wah Yan SAUITests";
+			productReference = 31AA040F1E4AD9E8009E5BF8 /* Wah Yan SAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31AA03E51E4AD9E7009E5BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aaron Cheung 430";
+				TargetAttributes = {
+					31AA03EC1E4AD9E7009E5BF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NQP92PNMSP;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					31AA04031E4AD9E8009E5BF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NQP92PNMSP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31AA03EC1E4AD9E7009E5BF8;
+					};
+					31AA040E1E4AD9E8009E5BF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NQP92PNMSP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31AA03EC1E4AD9E7009E5BF8;
+					};
+				};
+			};
+			buildConfigurationList = 31AA03E81E4AD9E7009E5BF8 /* Build configuration list for PBXProject "Wah Yan SA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31AA03E41E4AD9E7009E5BF8;
+			productRefGroup = 31AA03EE1E4AD9E7009E5BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31AA03EC1E4AD9E7009E5BF8 /* Wah Yan SA */,
+				31AA04031E4AD9E8009E5BF8 /* Wah Yan SATests */,
+				31AA040E1E4AD9E8009E5BF8 /* Wah Yan SAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31AA03EB1E4AD9E7009E5BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AA03FE1E4AD9E7009E5BF8 /* LaunchScreen.storyboard in Resources */,
+				3150E5481E4B14290051E0EA /* GoogleService-Info.plist in Resources */,
+				3150E5521E4B1D0C0051E0EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AA04021E4AD9E8009E5BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AA040D1E4AD9E8009E5BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C08D2A2D1A86CB92F6F2C6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12B37BE39A66D308102AFB9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wah Yan SA/Pods-Wah Yan SA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61ABFD7C92C02A1437F5DC15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wah Yan SA/Pods-Wah Yan SA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31AA03E91E4AD9E7009E5BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AA03F91E4AD9E7009E5BF8 /* Wah_Yan_SA.xcdatamodeld in Sources */,
+				31AA03F31E4AD9E7009E5BF8 /* ViewController.swift in Sources */,
+				317EB8B51E4B532F002828EF /* Information.swift in Sources */,
+				31AA03F11E4AD9E7009E5BF8 /* AppDelegate.swift in Sources */,
+				3150E54C1E4B1A100051E0EA /* MA.swift in Sources */,
+				3150E5561E4B1F910051E0EA /* CampusTV.swift in Sources */,
+				317EB8AF1E4B35A4002828EF /* FloorMap.swift in Sources */,
+				3150E54A1E4B16E30051E0EA /* SA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AA04001E4AD9E8009E5BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AA04091E4AD9E8009E5BF8 /* Wah_Yan_SATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AA040B1E4AD9E8009E5BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AA04141E4AD9E8009E5BF8 /* Wah_Yan_SAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31AA04061E4AD9E8009E5BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AA03EC1E4AD9E7009E5BF8 /* Wah Yan SA */;
+			targetProxy = 31AA04051E4AD9E8009E5BF8 /* PBXContainerItemProxy */;
+		};
+		31AA04111E4AD9E8009E5BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31AA03EC1E4AD9E7009E5BF8 /* Wah Yan SA */;
+			targetProxy = 31AA04101E4AD9E8009E5BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31AA03FC1E4AD9E7009E5BF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31AA03FD1E4AD9E7009E5BF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31AA04161E4AD9E8009E5BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31AA04171E4AD9E8009E5BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31AA04191E4AD9E8009E5BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944C8435E078EF4A813624AE /* Pods-Wah Yan SA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Wah Yan SA/Wah Yan SA.entitlements";
+				DEVELOPMENT_TEAM = NQP92PNMSP;
+				INFOPLIST_FILE = "Wah Yan SA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arroncheung430.Wah-Yan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		31AA041A1E4AD9E8009E5BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27520E7F5388B82D4BC882EA /* Pods-Wah Yan SA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Wah Yan SA/Wah Yan SA.entitlements";
+				DEVELOPMENT_TEAM = NQP92PNMSP;
+				INFOPLIST_FILE = "Wah Yan SA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arroncheung430.Wah-Yan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		31AA041C1E4AD9E8009E5BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NQP92PNMSP;
+				INFOPLIST_FILE = "Wah Yan SATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaroncheung430.Wah-Yan-SATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wah Yan SA.app/Wah Yan SA";
+			};
+			name = Debug;
+		};
+		31AA041D1E4AD9E8009E5BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NQP92PNMSP;
+				INFOPLIST_FILE = "Wah Yan SATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaroncheung430.Wah-Yan-SATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wah Yan SA.app/Wah Yan SA";
+			};
+			name = Release;
+		};
+		31AA041F1E4AD9E8009E5BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NQP92PNMSP;
+				INFOPLIST_FILE = "Wah Yan SAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaroncheung430.Wah-Yan-SAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Wah Yan SA";
+			};
+			name = Debug;
+		};
+		31AA04201E4AD9E8009E5BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NQP92PNMSP;
+				INFOPLIST_FILE = "Wah Yan SAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aaroncheung430.Wah-Yan-SAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Wah Yan SA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31AA03E81E4AD9E7009E5BF8 /* Build configuration list for PBXProject "Wah Yan SA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AA04161E4AD9E8009E5BF8 /* Debug */,
+				31AA04171E4AD9E8009E5BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AA04181E4AD9E8009E5BF8 /* Build configuration list for PBXNativeTarget "Wah Yan SA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AA04191E4AD9E8009E5BF8 /* Debug */,
+				31AA041A1E4AD9E8009E5BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AA041B1E4AD9E8009E5BF8 /* Build configuration list for PBXNativeTarget "Wah Yan SATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AA041C1E4AD9E8009E5BF8 /* Debug */,
+				31AA041D1E4AD9E8009E5BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AA041E1E4AD9E8009E5BF8 /* Build configuration list for PBXNativeTarget "Wah Yan SAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31AA041F1E4AD9E8009E5BF8 /* Debug */,
+				31AA04201E4AD9E8009E5BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31AA03F71E4AD9E7009E5BF8 /* Wah_Yan_SA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31AA03F81E4AD9E7009E5BF8 /* Wah_Yan_SA.xcdatamodel */,
+			);
+			currentVersion = 31AA03F81E4AD9E7009E5BF8 /* Wah_Yan_SA.xcdatamodel */;
+			path = Wah_Yan_SA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31AA03E51E4AD9E7009E5BF8 /* Project object */;
+}
