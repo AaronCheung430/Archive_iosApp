@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="30s-bz-Dyp">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--WYK Campus TV-->
+        <scene sceneID="9Uo-TS-YeL">
+            <objects>
+                <viewController id="aYv-Ux-wRQ" customClass="CampusTV" customModule="Wah_Yan_SA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yyc-Nc-Ne1"/>
+                        <viewControllerLayoutGuide type="bottom" id="in0-oz-eCL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ati-Bv-MMy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2e-Sd-FWX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="D2e-Sd-FWX" secondAttribute="bottom" id="E2g-bs-uPC"/>
+                            <constraint firstItem="D2e-Sd-FWX" firstAttribute="top" secondItem="Ati-Bv-MMy" secondAttribute="top" id="P6t-qY-Lu4"/>
+                            <constraint firstAttribute="trailing" secondItem="D2e-Sd-FWX" secondAttribute="trailing" id="RDc-1Z-xNU"/>
+                            <constraint firstItem="D2e-Sd-FWX" firstAttribute="leading" secondItem="Ati-Bv-MMy" secondAttribute="leading" id="rxg-sS-emx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="WYK Campus TV" id="N9s-12-daz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="HgO-b1-hrS">
+                            <connections>
+                                <action selector="Refresh:" destination="aYv-Ux-wRQ" id="l8x-FZ-Gix"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="D2e-Sd-FWX" id="VxI-er-xGP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iv2-0y-oAa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3054" y="1590"/>
+        </scene>
+        <!--WYK Students' Association-->
+        <scene sceneID="W1f-O0-xdV">
+            <objects>
+                <viewController id="coX-60-TzA" customClass="SA" customModule="Wah_Yan_SA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="23q-B4-peH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pzr-xc-BHu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iEe-b7-c66">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qsf-8s-id1">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qsf-8s-id1" firstAttribute="top" secondItem="iEe-b7-c66" secondAttribute="top" id="CAX-vS-eDM"/>
+                            <constraint firstItem="qsf-8s-id1" firstAttribute="leading" secondItem="iEe-b7-c66" secondAttribute="leading" id="Xgj-RB-iR2"/>
+                            <constraint firstAttribute="bottom" secondItem="qsf-8s-id1" secondAttribute="bottom" id="lKy-3V-EIC"/>
+                            <constraint firstAttribute="trailing" secondItem="qsf-8s-id1" secondAttribute="trailing" id="yLF-wP-zPo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="WYK Students' Association" id="4cH-et-tKz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="wFE-e2-e1c">
+                            <connections>
+                                <action selector="Refresh:" destination="coX-60-TzA" id="fLu-xH-uQG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="qsf-8s-id1" id="aRp-nk-ZgQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nqX-Fs-9ch" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1471" y="1462"/>
+        </scene>
+        <!--WYK Music Association-->
+        <scene sceneID="3Id-sg-AbL">
+            <objects>
+                <viewController id="wTw-kh-mhH" customClass="MA" customModule="Wah_Yan_SA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CLz-6V-PdI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fy1-Zy-iIt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KSt-0D-2Or">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a3V-7S-W51">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="a3V-7S-W51" secondAttribute="bottom" id="QAa-kU-oxu"/>
+                            <constraint firstItem="a3V-7S-W51" firstAttribute="top" secondItem="KSt-0D-2Or" secondAttribute="top" id="gri-Hu-014"/>
+                            <constraint firstItem="a3V-7S-W51" firstAttribute="leading" secondItem="KSt-0D-2Or" secondAttribute="leading" id="urG-rY-goH"/>
+                            <constraint firstAttribute="trailing" secondItem="a3V-7S-W51" secondAttribute="trailing" id="w4A-qx-hJ7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="WYK Music Association" id="GGd-xm-dht">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Jaj-VS-Guc">
+                            <connections>
+                                <action selector="Refresh:" destination="wTw-kh-mhH" id="8eX-Mt-oLm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="a3V-7S-W51" id="alZ-ub-NGq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zpf-DS-4AK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1471.0144927536232" y="231.52173913043481"/>
+        </scene>
+        <!--Ice Hockey League Final-->
+        <scene sceneID="ivJ-ll-SJe">
+            <objects>
+                <viewController id="VfC-Sa-DNI" customClass="ViewController" customModule="Wah_Yan_SA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AzM-iB-cLv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ngn-dK-kGA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lvi-wn-lOk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LoB-ly-5BE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o4V-2Y-Nbc">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Campus TV Live Ice Hockey 2017 16 9 2" translatesAutoresizingMaskIntoConstraints="NO" id="5ad-C8-QF8">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="233"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="5ad-C8-QF8" secondAttribute="height" multiplier="1920:1080" id="ydB-HR-sPZ"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qd3-HG-dpR">
+                                                <rect key="frame" x="0.0" y="273" width="414" height="150"/>
+                                                <color key="backgroundColor" red="0.54829177461139889" green="0.28861133384223719" blue="0.23590712144507167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="  Watch Live Now" image="icons8-camcorder_pro">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ITQvideo:" destination="VfC-Sa-DNI" eventType="touchUpInside" id="yGp-0e-m9B"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="5ad-C8-QF8" firstAttribute="leading" secondItem="o4V-2Y-Nbc" secondAttribute="leading" id="CxM-MZ-BzL"/>
+                                            <constraint firstItem="qd3-HG-dpR" firstAttribute="top" secondItem="5ad-C8-QF8" secondAttribute="bottom" constant="40" id="Pj8-Pm-FUp"/>
+                                            <constraint firstItem="5ad-C8-QF8" firstAttribute="top" secondItem="o4V-2Y-Nbc" secondAttribute="top" id="ZOA-wz-m0O"/>
+                                            <constraint firstAttribute="trailing" secondItem="5ad-C8-QF8" secondAttribute="trailing" id="akP-gI-hsU"/>
+                                            <constraint firstItem="qd3-HG-dpR" firstAttribute="centerX" secondItem="o4V-2Y-Nbc" secondAttribute="centerX" id="kM8-cz-CkR"/>
+                                            <constraint firstAttribute="height" constant="400" id="mC2-1v-ixY"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="o4V-2Y-Nbc" firstAttribute="leading" secondItem="LoB-ly-5BE" secondAttribute="leading" id="1H3-gD-Nao"/>
+                                    <constraint firstAttribute="bottom" secondItem="o4V-2Y-Nbc" secondAttribute="bottom" constant="36" id="4TS-rb-XVv"/>
+                                    <constraint firstItem="o4V-2Y-Nbc" firstAttribute="top" secondItem="LoB-ly-5BE" secondAttribute="top" id="dSY-Bb-yOZ"/>
+                                    <constraint firstItem="o4V-2Y-Nbc" firstAttribute="centerX" secondItem="LoB-ly-5BE" secondAttribute="centerX" id="kdo-x6-zF1"/>
+                                    <constraint firstAttribute="trailing" secondItem="o4V-2Y-Nbc" secondAttribute="trailing" id="s4d-fc-tAU"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LoB-ly-5BE" firstAttribute="top" secondItem="Lvi-wn-lOk" secondAttribute="top" id="JHv-IM-lIi"/>
+                            <constraint firstItem="5ad-C8-QF8" firstAttribute="width" secondItem="Lvi-wn-lOk" secondAttribute="width" id="LuC-76-cvh"/>
+                            <constraint firstAttribute="bottom" secondItem="LoB-ly-5BE" secondAttribute="bottom" id="MKr-EV-K3a"/>
+                            <constraint firstAttribute="trailing" secondItem="LoB-ly-5BE" secondAttribute="trailing" id="ODP-DO-d9Y"/>
+                            <constraint firstItem="qd3-HG-dpR" firstAttribute="width" secondItem="Lvi-wn-lOk" secondAttribute="width" id="jHM-od-aaU"/>
+                            <constraint firstItem="qd3-HG-dpR" firstAttribute="height" secondItem="Lvi-wn-lOk" secondAttribute="height" multiplier="0.15" id="rta-zc-r7B"/>
+                            <constraint firstItem="LoB-ly-5BE" firstAttribute="leading" secondItem="Lvi-wn-lOk" secondAttribute="leading" id="sVV-jO-XsS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ice Hockey League Final" id="EPe-Xd-zva"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ls-sv-Y6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2147.826086956522" y="257.60869565217394"/>
+        </scene>
+        <!--PAMPHLET-->
+        <scene sceneID="v5V-cz-0cs">
+            <objects>
+                <viewController id="gYC-bA-4GI" customClass="FloorMap" customModule="Wah_Yan_SA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iL9-ed-7yR"/>
+                        <viewControllerLayoutGuide type="bottom" id="c1j-sC-T0M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fMo-qk-0ky">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GKc-P8-qRu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GKc-P8-qRu" firstAttribute="top" secondItem="fMo-qk-0ky" secondAttribute="top" id="PvZ-ct-5b7"/>
+                            <constraint firstItem="GKc-P8-qRu" firstAttribute="leading" secondItem="fMo-qk-0ky" secondAttribute="leading" id="YVp-zU-dtr"/>
+                            <constraint firstItem="GKc-P8-qRu" firstAttribute="centerY" secondItem="fMo-qk-0ky" secondAttribute="centerY" id="h5R-d7-7Lg"/>
+                            <constraint firstItem="GKc-P8-qRu" firstAttribute="centerX" secondItem="fMo-qk-0ky" secondAttribute="centerX" id="lGj-pc-MeR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="PAMPHLET" id="9z6-u2-pwx"/>
+                    <connections>
+                        <outlet property="webview" destination="GKc-P8-qRu" id="egW-5m-HIK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y1w-Ro-yFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3054" y="-151"/>
+        </scene>
+        <!--INFORMATION-->
+        <scene sceneID="HHC-17-ygz">
+            <objects>
+                <viewController id="65w-IT-NEm" customClass="Information" customModule="Wah_Yan_SA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CHS-oY-zdN"/>
+                        <viewControllerLayoutGuide type="bottom" id="oJr-sr-xbU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dDa-bv-VcV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pph-vP-PrL">
+                                <rect key="frame" x="0.0" y="-33" width="414" height="1033"/>
+                                <color key="backgroundColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Pph-vP-PrL" secondAttribute="trailing" id="3ZS-n5-2mO"/>
+                            <constraint firstAttribute="bottom" secondItem="Pph-vP-PrL" secondAttribute="bottom" id="8Wi-Sm-c4m"/>
+                            <constraint firstItem="Pph-vP-PrL" firstAttribute="leading" secondItem="dDa-bv-VcV" secondAttribute="leading" id="Feh-Rb-RI4"/>
+                            <constraint firstItem="Pph-vP-PrL" firstAttribute="top" secondItem="dDa-bv-VcV" secondAttribute="top" constant="-33" id="UlF-9E-v7R"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="INFORMATION" id="a1Q-on-9ry"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="webView" destination="Pph-vP-PrL" id="OUr-BQ-LYe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LB3-Jo-Ytu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3053.6231884057975" y="741.84782608695662"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="5rO-lb-fGD">
+            <objects>
+                <tabBarController id="30s-bz-Dyp" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="EmT-e6-bNu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eXy-F4-fKz" kind="relationship" relationship="viewControllers" id="TI1-Gj-BbH"/>
+                        <segue destination="zNR-11-OQa" kind="relationship" relationship="viewControllers" id="3Fw-Ic-dTl"/>
+                        <segue destination="n2u-oa-asp" kind="relationship" relationship="viewControllers" id="aB6-YX-R9f"/>
+                        <segue destination="GVP-TX-ve7" kind="relationship" relationship="viewControllers" id="Gjf-OF-cPX"/>
+                        <segue destination="e3e-zw-nMc" kind="relationship" relationship="viewControllers" id="8Xr-wQ-xR5"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55m-ev-6Xg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424.63768115942031" y="559.23913043478262"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="hSp-3f-AvG">
+            <objects>
+                <viewController id="gw6-NW-D67" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rg3-gC-lIf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xov-Yr-7da"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tHS-0b-1Vn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="badge" translatesAutoresizingMaskIntoConstraints="NO" id="hNc-ni-InU">
+                                <rect key="frame" x="93" y="72" width="228" height="205"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hNc-ni-InU" secondAttribute="height" multiplier="228:205" id="lnZ-mh-Igy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App version 1.3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qq0-ji-WpG">
+                                <rect key="frame" x="0.0" y="475" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consultant: Jason Wong 5C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6C-n0-Oa3">
+                                <rect key="frame" x="0.0" y="327" width="414" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developer: Aaron Cheung 2K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waq-7c-51w">
+                                <rect key="frame" x="0.0" y="371" width="414" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="waq-7c-51w" firstAttribute="width" secondItem="tHS-0b-1Vn" secondAttribute="width" id="2g6-7T-aff"/>
+                            <constraint firstItem="qq0-ji-WpG" firstAttribute="centerX" secondItem="tHS-0b-1Vn" secondAttribute="centerX" id="6mZ-uR-BwX"/>
+                            <constraint firstItem="qq0-ji-WpG" firstAttribute="top" secondItem="waq-7c-51w" secondAttribute="bottom" constant="80" id="77v-en-lLF"/>
+                            <constraint firstItem="hNc-ni-InU" firstAttribute="centerX" secondItem="tHS-0b-1Vn" secondAttribute="centerX" id="A0i-DG-5fg"/>
+                            <constraint firstItem="qq0-ji-WpG" firstAttribute="width" secondItem="tHS-0b-1Vn" secondAttribute="width" id="F8r-lC-kp6"/>
+                            <constraint firstItem="waq-7c-51w" firstAttribute="top" secondItem="O6C-n0-Oa3" secondAttribute="bottom" constant="20" id="Vmh-Kj-0m2"/>
+                            <constraint firstItem="O6C-n0-Oa3" firstAttribute="width" secondItem="tHS-0b-1Vn" secondAttribute="width" id="a66-ZQ-I9k"/>
+                            <constraint firstItem="waq-7c-51w" firstAttribute="centerX" secondItem="tHS-0b-1Vn" secondAttribute="centerX" id="dy4-pL-G8x"/>
+                            <constraint firstItem="O6C-n0-Oa3" firstAttribute="centerX" secondItem="tHS-0b-1Vn" secondAttribute="centerX" id="pQU-Vx-rb1"/>
+                            <constraint firstItem="hNc-ni-InU" firstAttribute="top" secondItem="rg3-gC-lIf" secondAttribute="bottom" constant="8" id="uy5-qL-gfe"/>
+                            <constraint firstItem="O6C-n0-Oa3" firstAttribute="top" secondItem="hNc-ni-InU" secondAttribute="bottom" constant="50" id="vRF-qU-eRm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="About" id="iSr-xC-VXf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="foN-dE-OEO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424.63768115942031" y="2126.0869565217395"/>
+        </scene>
+        <!--LIVE-->
+        <scene sceneID="kk3-fC-F3k">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eXy-F4-fKz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="LIVE" image="icons8-online_filled" badgeValue="New!" id="u63-C2-DLd"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IBZ-fq-boZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VfC-Sa-DNI" kind="relationship" relationship="rootViewController" id="hDL-cc-Q1M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QOi-Aj-qfz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1203" y="232"/>
+        </scene>
+        <!--SA-->
+        <scene sceneID="r0B-io-de0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="n2u-oa-asp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="SA" image="Manager-25" id="rLF-3B-LgL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y5s-Hi-qsM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="coX-60-TzA" kind="relationship" relationship="rootViewController" id="YAc-Ex-rRR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RbW-ii-QW3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-436" y="1462"/>
+        </scene>
+        <!--MA-->
+        <scene sceneID="Sad-oJ-DuB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GVP-TX-ve7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="MA" image="Music Conductor-25" id="XWq-0S-CMn"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RFb-v8-jyN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wTw-kh-mhH" kind="relationship" relationship="rootViewController" id="Sbd-eB-y42"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tOD-O7-h5i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-435" y="232"/>
+        </scene>
+        <!--Campus TV-->
+        <scene sceneID="SgA-dC-ll9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zNR-11-OQa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Campus TV" image="icons8-video_call" id="k6W-60-9xe"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Wl-tT-Um7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aYv-Ux-wRQ" kind="relationship" relationship="rootViewController" id="Run-Xg-6Cc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="efh-Ec-jzL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2093" y="1590"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="epc-4q-Xds">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e3e-zw-nMc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="icons8-settings" id="YbA-BO-ULx"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dhx-wD-Rnb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gw6-NW-D67" kind="relationship" relationship="rootViewController" id="3C6-lN-xH9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7h3-4j-CxE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424.63768115942031" y="1461.6847826086957"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Campus TV Live Ice Hockey 2017 16 9 2" width="1920" height="1080"/>
+        <image name="Manager-25" width="25" height="25"/>
+        <image name="Music Conductor-25" width="25" height="25"/>
+        <image name="badge" width="228" height="205"/>
+        <image name="icons8-camcorder_pro" width="50" height="50"/>
+        <image name="icons8-online_filled" width="25" height="25"/>
+        <image name="icons8-settings" width="25" height="25"/>
+        <image name="icons8-video_call" width="25" height="25"/>
+    </resources>
+</document>
