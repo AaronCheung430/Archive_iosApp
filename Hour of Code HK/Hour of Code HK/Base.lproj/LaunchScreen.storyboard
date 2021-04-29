@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hochk" translatesAutoresizingMaskIntoConstraints="NO" id="ZWd-a6-Z1J">
+                                <rect key="frame" x="103.66666666666669" y="57" width="207" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZWd-a6-Z1J" secondAttribute="height" multiplier="1:1" id="TYB-Oo-Omn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hour of Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMw-4A-hyY">
+                                <rect key="frame" x="118" y="271.66666666666669" width="178" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hong Kong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWz-uj-VFi">
+                                <rect key="frame" x="132.66666666666669" y="315.66666666666669" width="149.00000000000006" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © By AaronCheung, 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmi-b6-SDK">
+                                <rect key="frame" x="0.0" y="499" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZWd-a6-Z1J" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="37" id="1R5-oU-cJV"/>
+                            <constraint firstItem="KWz-uj-VFi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FKq-9S-JTd"/>
+                            <constraint firstItem="RMw-4A-hyY" firstAttribute="top" secondItem="ZWd-a6-Z1J" secondAttribute="bottom" constant="8" id="XXE-Vd-UiO"/>
+                            <constraint firstItem="KWz-uj-VFi" firstAttribute="top" secondItem="RMw-4A-hyY" secondAttribute="bottom" constant="8" id="hDD-Em-Yhn"/>
+                            <constraint firstItem="hmi-b6-SDK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iW5-5r-jS3"/>
+                            <constraint firstItem="ZWd-a6-Z1J" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="lAD-q5-VGT"/>
+                            <constraint firstItem="ZWd-a6-Z1J" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oMa-0H-ULy"/>
+                            <constraint firstItem="RMw-4A-hyY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pMH-Km-DAb"/>
+                            <constraint firstItem="hmi-b6-SDK" firstAttribute="top" secondItem="KWz-uj-VFi" secondAttribute="bottom" constant="147" id="tH9-EO-40v"/>
+                            <constraint firstItem="hmi-b6-SDK" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="u6f-qe-T8s"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hochk" width="1208" height="1208"/>
+    </resources>
+</document>
